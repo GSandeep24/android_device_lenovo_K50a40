@@ -1,9 +1,10 @@
-
+#
 # system.prop for K50a40
+#
 
+# Ril
 rild.libpath=mtk-ril.so
 rild.libargs=-d /dev/ttyC0
-
 
 # MTK, Infinity, 20090720 {
 wifi.interface=wlan0
@@ -19,7 +20,6 @@ ro.mediatek.wlan.p2p=1
 # MTK, mtk03034, 20101213 {
 mediatek.wlan.ctia=0
 # MTK, mtk03034 20101213}
-
 
 #
 wifi.tethering.interface=ap0
@@ -51,7 +51,7 @@ ro.audio.silent=0
 
 ro.zygote.preload.enable=0
 
-# temporary enables NAV bar (soft keys)
+# Temporary disables Softkeys. To enable just replace 1 with 0.
 qemu.hw.mainkeys=1
 
 ro.kernel.zio=38,108,105,16
@@ -177,7 +177,7 @@ ro.sim_me_lock_mode=0
 ro.mtk_dual_mic_support=1
 ro.mtk_is_tablet=0
 wfd.dummy.enable=1
-ro.mediatek.project.path=device/lenovo/aio_5m
+ro.mediatek.project.path=device/lenovo/K50a40
 persist.mtk.wcn.combo.chipid=-1
 service.wcn.driver.ready=no
 service.wcn.coredump.mode=2
