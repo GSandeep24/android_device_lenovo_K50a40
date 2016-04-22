@@ -188,5 +188,5 @@ ro.mtk_deinterlace_support=1
 ro.lenovo.easyimage.enable=yes
 persist.sim.simlock=false
 persist.sim.simunlock=false
-persist.sys.timezone=Asia/Shanghai
+persist.sys.timezone=Asia/Kolkata
 keyguard.no_require_sim=true
