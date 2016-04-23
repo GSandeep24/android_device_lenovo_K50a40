@@ -1,4 +1,4 @@
-$(call inherit-product, device/lenovo/aio_row/device_K50a40.mk)
+$(call inherit-product, device/lenovo/K50a40/device_K50a40.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
